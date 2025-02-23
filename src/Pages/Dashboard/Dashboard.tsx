@@ -1,7 +1,5 @@
 import React from "react";
 import "./Dashboard.css";
-//@ts-ignore
-import { Chart } from "react-charts";
 
 import img1 from "../../assets/img1.png";
 
