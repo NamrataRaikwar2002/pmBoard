@@ -1,0 +1,75 @@
+.dasboardView {
+    display: flex;
+    border: 1px solid red;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.dasboardText {
+    color: '#000',
+}
+
+.ProjView {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    gap: 3rem;
+}
+
+
+.dasboardView:nth-child(4) {
+    background-color: var(--novel-color);
+}
+
+.budgetView {
+    display: flex;
+    
+    padding: 2rem;
+   
+    flex-direction: column;
+    border-radius: 4px;
+    width: 30rem;
+    height: 20rem;
+    gap: 10px;
+    box-shadow: 2px 2px 2px 3px oklch(0.885 0.062 18.334);
+}
+
+.budgetViewmain {
+    display: flex;
+    gap: 3rem;
+    padding-top: 3rem;
+
+}
+
+.imgAndname {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoImg {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+}
+
+.btext{
+    font-size: 14px;
+}
+
+.bvalue{
+    display: flex;
+    justify-content:space-between;
+}
+
+.bValuesdiv{
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+}
+
+.mainDiv{
+    padding: 2rem;
+}
